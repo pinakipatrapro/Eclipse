@@ -16,8 +16,10 @@ sap.ui.jsview("test_git_v1.Home", {
  		return new sap.m.Page({
 			title: "Title",
 			content: [
-			
-			]
+							new sap.m.Button({
+								text : 'Mail Send'
+							})
+			]	
 		});
 	}
 
