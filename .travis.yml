@@ -1,15 +1,3 @@
 language: node_js
-
-install:
-  - npm install
-script:
-  - npm test
-after_success:
-  - ./scripts/prepare-environment.sh
-  - ./scripts/deploy-to-nw.sh
-  - ./scripts/run-sonar.sh
-cache:
-  directories:
-    - node_modules
-    - test/fixtures/node_modules
-    - sdk
+node_js:
+  - "stable"
