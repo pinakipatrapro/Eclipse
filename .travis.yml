@@ -1,16 +1,1 @@
 language: node_js
-node_js:
-  - "6.6"
-install:
-  - npm install
-script:
-  - npm test
-after_success:
-  - ./scripts/prepare-environment.sh
-  - ./scripts/deploy-to-nw.sh
-  - ./scripts/run-sonar.sh
-cache:
-  directories:
-    - node_modules
-    - test/fixtures/node_modules
-    - sdk
