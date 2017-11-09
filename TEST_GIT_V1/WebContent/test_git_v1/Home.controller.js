@@ -7,7 +7,7 @@ sap.ui.controller("test_git_v1.Home", {
 */
 //	onInit: function() {
 //
-//	},
+//	},   
 
 /**
 * Similar to onAfterRendering, but this hook is invoked before the controller's View is re-rendered
